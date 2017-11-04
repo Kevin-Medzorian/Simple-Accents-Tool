@@ -54,7 +54,7 @@ public class Accents extends JFrame{
         setTitle("Spanish Accents");
         setVisible(true);
         
-        setSize(375, 60);
+        setSize(375, 68);
         
         setResizable(false);
         setFocusableWindowState(false);
@@ -63,6 +63,7 @@ public class Accents extends JFrame{
         JPanel panel = new JPanel();
         panel.setVisible(true); 
         add(panel);
+        
         
         for (int i = 0; i < letters.length; i++) {
             JButton j = newButton(letters[i].text);
