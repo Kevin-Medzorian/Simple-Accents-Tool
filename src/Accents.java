@@ -53,9 +53,7 @@ public class Accents extends JFrame{
         setLocationByPlatform(true);
         setTitle("Spanish Accents");
         setVisible(true);
-        
-        setSize(375, 68);
-        
+                
         setResizable(false);
         setFocusableWindowState(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);     
@@ -96,6 +94,7 @@ public class Accents extends JFrame{
             public void nativeKeyTyped(NativeKeyEvent e) {}
         }); 
         
+        pack();
     }
  
     public static void sendKey(int[] keys, boolean isUpper) {
